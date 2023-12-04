@@ -1,0 +1,22 @@
+/***
+  Variables
+***/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+:root {
+  --color-dark: 230 35% 7%;
+  --color-light: 231 77% 90%;
+  --color-white: 0 0% 100%;
+  --font-sans-regular: 'Barlow', sans-serif;
+  --font-sans-condensed: 'Barlow Condensed', sans-serif;
+  --font-serif-regular: 'Bellefair', serif;
+  --fs-xs: 0.875rem; /* 14px */
+  --fs-sm: 1rem; /* 16px */
+  --fs-reg: 1.125rem; /* 18px */
+  --fs-med: 1.75rem; /* 28px */
+  --fs-lg: 2rem; /* 32px */
+  --fs-xl: 3.5rem; /* 56px */
+  --fs-2xl: 6.25rem; /* 100px */
+  --fs-3xl: 9.375rem; /* 150px */
+}

@@ -1,0 +1,27 @@
+/***
+  Colors
+***/
+
+.bg-dark {
+  background-color: hsl(var(--color-dark));
+}
+
+.bg-light {
+  background-color: hsl(var(--color-light));
+}
+
+.bg-white {
+  background-color: hsl(var(--color-white));
+}
+
+.text-dark {
+  color: hsl(var(--color-dark));
+}
+
+.text-light {
+  color: hsl(var(--color-light));
+}
+
+.text-white {
+  color: hsl(var(--color-white));
+}
