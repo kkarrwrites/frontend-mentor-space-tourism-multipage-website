@@ -1,28 +1,30 @@
 import { Link } from 'react-router-dom';
 
+import Logo from '../assets/img/shared/logo.svg';
+
 function Nav() {
   return (
     <nav>
-      <div>Logo</div>
-      <ul>
+      <img src={Logo} alt="Logo" />
+      <ul className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase">
         <li>
           <Link to="/">
-            <span>00</span> Home
+            <span className="bold">00</span> Home
           </Link>
         </li>
         <li>
           <Link to="/destination">
-            <span>01</span> Destination
+            <span className="bold">01</span> Destination
           </Link>
         </li>
         <li>
           <Link to="/crew">
-            <span>02</span> Crew
+            <span className="bold">02</span> Crew
           </Link>
         </li>
         <li>
           <Link to="technology">
-            <span>03</span> Technology
+            <span className="bold">03</span> Technology
           </Link>
         </li>
       </ul>
