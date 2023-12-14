@@ -3,8 +3,8 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 function Technology() {
   return (
     <>
-      <h2>
-        <span>03</span> Space Launch 101
+      <h2 className="ff-sans-condensed fs-med letter-spacing-4-72 uppercase">
+        <span className="bold">03</span> Space Launch 101
       </h2>
       <Tabs>
         <TabList aria-label="Technology">
@@ -13,9 +13,11 @@ function Technology() {
           <Tab id="3">3</Tab>
         </TabList>
         <TabPanel id="1">
-          <p>The Terminology...</p>
-          <h3>Launch Vehicle</h3>
-          <p>
+          <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase">
+            The Terminology...
+          </p>
+          <h3 className="ff-serif-regular fs-xl uppercase">Launch Vehicle</h3>
+          <p className="ff-sans-regular fs-regular line-height-1-5">
             A launch vehicle or carrier rocket is a rocket-propelled vehicle
             used to carry a payload from Earth's surface to space, usually to
             Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
@@ -24,9 +26,11 @@ function Technology() {
           </p>
         </TabPanel>
         <TabPanel id="2">
-          <p>The Terminology...</p>
-          <h3>Spaceport</h3>
-          <p>
+          <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase">
+            The Terminology...
+          </p>
+          <h3 className="ff-serif-regular fs-xl uppercase">Spaceport</h3>
+          <p className="ff-sans-regular fs-regular line-height-1-5">
             A spaceport or cosmodrome is a site for launching (or receiving)
             spacecraft, by analogy to the seaport for ships or airport for
             aircraft. Based in the famous Cape Canaveral, our spaceport is
@@ -35,9 +39,11 @@ function Technology() {
           </p>
         </TabPanel>
         <TabPanel id="3">
-          <p>The Terminology...</p>
-          <h3>Space Capsule</h3>
-          <p>
+          <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase">
+            The Terminology...
+          </p>
+          <h3 className="ff-serif-regular fs-xl uppercase">Space Capsule</h3>
+          <p className="ff-sans-regular fs-regular line-height-1-5">
             A space capsule is an often-crewed spacecraft that uses a blunt-body
             reentry capsule to reenter the Earth's atmosphere without wings. Our
             capsule is where you'll spend your time during the flight. It
