@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav>
       <img src={Logo} alt="Logo" />
-      <ul className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase">
+      <ul className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase text-white">
         <li>
           <Link to="/">
             <span className="bold">00</span> Home
