@@ -2,6 +2,10 @@
   Typography
 ***/
 
+.bold {
+  font-weight: bold;
+}
+
 .ff-sans-regular {
   font-family: var(--font-sans-regular);
 }
@@ -66,8 +70,12 @@
   line-height: 1.5;
 }
 
-.bold {
-  font-weight: bold;
+.text-opacity-25 {
+  opacity: 0.25;
+}
+
+.text-opacity-50 {
+  opacity: 0.5;
 }
 
 .uppercase {
