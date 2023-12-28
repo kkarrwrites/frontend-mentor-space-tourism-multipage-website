@@ -3,41 +3,17 @@
 ***/
 
 .large-button {
-  color: hsl(var(--color-dark));
-  background-color: hsl(var(--color-white));
-  font-family: var(--font-serif-regular);
-  font-size: var(--fs-lg);
-  text-decoration: none;
-  text-transform: uppercase;
-  // border-radius: 50%;
-  // height: 274px;
-  // line-height: 274px;
-  // width: 274px;
-  // text-align: center;
-  aspect-ratio: 1;
+  background: hsl(var(--color-white));
+  height: 274px;
+  width: 274px;
   border-radius: 50%;
-  display: grid;
-  padding: 0 2em;
-  place-items: center;
-  position: relative;
-  z-index: 1;
-}
-
-.large-button:after {
-  background-color: hsl(var(--color-white) / 0.25);
-  border-radius: 50%;
-  content: '';
-  height: 100%;
   position: absolute;
-  transition: transform 500ms ease-in-out;
-  width: 100%;
-  z-index: -1;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin: 75px;
 }
 
-.large-button:hover::after,
-.large-button:focus::after {
-  transform: scale(1.5);
-}
-
-.small-button {
+.large-button:hover {
+  box-shadow: 0px 0px 0px 75px hsla(0, 0%, 100%, 0.25);
+  transition: all 0.2s ease;
 }
