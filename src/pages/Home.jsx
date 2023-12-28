@@ -11,9 +11,9 @@ function Home() {
         back, and relax because we'll give you a truly out of this world
         experience!
       </p>
-      <div className="ff-serif-regular fs-lg letter-spacing-2 uppercase text-dark">
+      <button className="ff-serif-regular fs-lg letter-spacing-2 uppercase text-dark large-button">
         Explore
-      </div>
+      </button>
     </>
   );
 }
