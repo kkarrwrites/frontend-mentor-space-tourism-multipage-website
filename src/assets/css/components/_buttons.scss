@@ -2,8 +2,15 @@
   Buttons
 ***/
 
-.large-button {
+// Explore Button on Home Page
+
+.lg-button {
   background-color: hsl(var(--color-white));
+  color: hsl(var(--color-dark));
+  font-family: var(--font-serif-regular);
+  font-size: var(--fs-lg);
+  text-transform: uppercase;
+  letter-spacing: 2px;
   cursor: pointer;
   height: 274px;
   width: 274px;
@@ -14,12 +21,63 @@
   transition: all 0.2s ease;
 }
 
-.large-button:hover {
+.lg-button:hover {
   box-shadow: 0px 0px 0px 75px hsla(0, 0%, 100%, 0.25);
   transition: all 0.2s ease;
 }
 
-.small-button {
+// Mini Nav on Destination Page
+
+.mini-nav {
+  color: hsl(var(--color-light));
+  font-family: var(--font-sans-condensed);
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  letter-spacing: 2.27px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mini-nav:active,
+.mini-nav:focus {
+  color: hsl(var(--color-white));
+  border-bottom: 1.5px solid hsl(var(--color-white));
+  transition: all 0.2s ease;
+}
+
+.mini-nav:hover {
+  color: hsla(0, 0%, 100%, 0.5);
+  border-bottom: 1.5px solid hsla(0, 0%, 100%, 0.5);
+  transition: all 0.2s ease;
+}
+
+// Dot Buttons on Crew Page
+
+.xs-button {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: hsla(0, 0%, 100%, 0.25);
+  transition: all 0.2s ease;
+}
+
+.xs-button:active,
+.xs-button:focus {
+  background-color: hsl(var(--color-white));
+  transition: all 0.2s ease;
+}
+
+.xs-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  transition: all 0.2s ease;
+}
+
+// Numbered Buttons on Technology Page
+
+.sm-button {
+  color: hsl(var(--color-dark));
+  font-size: var(--fs-lg);
   cursor: pointer;
   height: 80px;
   width: 80px;
@@ -32,14 +90,14 @@
   transition: all 0.2s ease;
 }
 
-.small-button:active,
-.small-button:focus {
+.sm-button:active,
+.sm-button:focus {
   background-color: hsl(var(--color-white));
   color: hsl(var(--color-dark));
   transition: all 0.2s ease;
 }
 
-.small-button:hover {
+.sm-button:hover {
   background-color: transparent;
   color: hsl(var(--color-white));
   border: 1.5px solid hsl(var(--color-white));
