@@ -7,10 +7,16 @@ function Technology() {
         <span className="bold text-opacity-25">03</span> Space Launch 101
       </h2>
       <Tabs>
-        <TabList aria-label="Technology" className="text-white">
-          <Tab id="1">1</Tab>
-          <Tab id="2">2</Tab>
-          <Tab id="3">3</Tab>
+        <TabList aria-label="Technology" className="fs-lg text-dark">
+          <Tab id="1" className="small-button">
+            1
+          </Tab>
+          <Tab id="2" className="small-button">
+            2
+          </Tab>
+          <Tab id="3" className="small-button">
+            3
+          </Tab>
         </TabList>
         <TabPanel id="1">
           <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase text-light">
