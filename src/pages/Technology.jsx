@@ -7,14 +7,14 @@ function Technology() {
         <span className="bold text-opacity-25">03</span> Space Launch 101
       </h2>
       <Tabs>
-        <TabList aria-label="Technology" className="fs-lg text-dark">
-          <Tab id="1" className="small-button">
+        <TabList aria-label="Technology">
+          <Tab id="1" className="sm-button">
             1
           </Tab>
-          <Tab id="2" className="small-button">
+          <Tab id="2" className="sm-button">
             2
           </Tab>
-          <Tab id="3" className="small-button">
+          <Tab id="3" className="sm-button">
             3
           </Tab>
         </TabList>
