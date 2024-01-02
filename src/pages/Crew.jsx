@@ -7,11 +7,11 @@ function Crew() {
         <span className="bold text-opacity-25">02</span> Meet Your Crew
       </h2>
       <Tabs>
-        <TabList aria-label="Technology" className="text-white">
-          <Tab id="1">1</Tab>
-          <Tab id="2">2</Tab>
-          <Tab id="3">3</Tab>
-          <Tab id="4">4</Tab>
+        <TabList aria-label="Technology">
+          <Tab id="1" className="xs-button"></Tab>
+          <Tab id="2" className="xs-button"></Tab>
+          <Tab id="3" className="xs-button"></Tab>
+          <Tab id="4" className="xs-button"></Tab>
         </TabList>
         <TabPanel id="1">
           <h3 className="ff-serif-regular fs-lg uppercase text-white text-opacity-50">
