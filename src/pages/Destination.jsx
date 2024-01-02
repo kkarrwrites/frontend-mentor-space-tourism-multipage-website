@@ -7,14 +7,19 @@ function Destination() {
         <span className="bold text-opacity-25">01</span> Pick Your Destination
       </h2>
       <Tabs>
-        <TabList
-          aria-label="Technology"
-          className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase text-white"
-        >
-          <Tab id="moon">Moon</Tab>
-          <Tab id="mars">Mars</Tab>
-          <Tab id="europa">Europa</Tab>
-          <Tab id="titan">Titan</Tab>
+        <TabList aria-label="Technology">
+          <Tab id="moon" className="mini-nav">
+            Moon
+          </Tab>
+          <Tab id="mars" className="mini-nav">
+            Mars
+          </Tab>
+          <Tab id="europa" className="mini-nav">
+            Europa
+          </Tab>
+          <Tab id="titan" className="mini-nav">
+            Titan
+          </Tab>
         </TabList>
         <TabPanel id="moon">
           <h3 className="ff-serif-regular fs-2xl uppercase text-white">Moon</h3>
