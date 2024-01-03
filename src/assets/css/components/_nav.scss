@@ -1,0 +1,22 @@
+.nav {
+  color: hsl(var(--color-white));
+  font-family: var(--font-sans-condensed);
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  letter-spacing: 2.27px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav:active,
+.nav:focus {
+  color: hsl(var(--color-white));
+  border-bottom: 1.5px solid hsl(var(--color-white));
+  transition: all 0.2s ease;
+}
+
+.nav:hover {
+  color: hsl(var(--color-white));
+  border-bottom: 1.5px solid hsla(0, 0%, 100%, 0.5);
+  transition: all 0.2s ease;
+}
