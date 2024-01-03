@@ -46,7 +46,7 @@
 }
 
 .mini-nav:hover {
-  color: hsla(0, 0%, 100%, 0.5);
+  color: hsl(var(--color-light));
   border-bottom: 1.5px solid hsla(0, 0%, 100%, 0.5);
   transition: all 0.2s ease;
 }
