@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from '../assets/img/shared/logo.svg';
+import HamburgerOpen from '../assets/img/shared/icon-hamburger.svg';
+import HamburgerClose from '../assets/img/shared/icon-close.svg';
 
 function Header() {
   return (
@@ -14,6 +17,7 @@ function Header() {
         <span className="sr-only" aria-expanded="false">
           Menu
         </span>
+        <img src={HamburgerOpen} alt="Hamburger Menu" className="hamburger" />
       </button>
       <nav>
         <ul id="primary-navigation" className="nav__menu">
