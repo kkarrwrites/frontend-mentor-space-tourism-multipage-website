@@ -1,5 +1,10 @@
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
+// Images
+import LaunchVehicle from '../assets/img/technology/image-launch-vehicle-portrait.jpg';
+import Spaceport from '../assets/img/technology/image-spaceport-portrait.jpg';
+import SpaceCapsule from '../assets/img/technology/image-space-capsule-portrait.jpg';
+
 function Technology() {
   return (
     <>
@@ -32,6 +37,7 @@ function Technology() {
             in operation. Standing 150 metres tall, it's quite an awe-inspiring
             sight on the launch pad!
           </p>
+          <img src={LaunchVehicle} alt="Launch Vehicle" />
         </TabPanel>
         <TabPanel id="2">
           <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase text-light">
@@ -47,6 +53,7 @@ function Technology() {
             ideally situated to take advantage of the Earth's rotation for
             launch.
           </p>
+          <img src={Spaceport} alt="Spaceport" />
         </TabPanel>
         <TabPanel id="3">
           <p className="ff-sans-condensed fs-sm letter-spacing-2-7 uppercase text-light">
@@ -62,6 +69,7 @@ function Technology() {
             includes a space gym, cinema, and plenty of other activities to keep
             you entertained.
           </p>
+          <img src={SpaceCapsule} alt="Space Capsule" />
         </TabPanel>
       </Tabs>
     </>
