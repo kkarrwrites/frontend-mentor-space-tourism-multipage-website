@@ -1,5 +1,11 @@
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
+// Images
+import Moon from '../assets/img/destination/image-moon.png';
+import Mars from '../assets/img/destination/image-mars.png';
+import Europa from '../assets/img/destination/image-europa.png';
+import Titan from '../assets/img/destination/image-titan.png';
+
 function Destination() {
   return (
     <>
@@ -22,6 +28,7 @@ function Destination() {
           </Tab>
         </TabList>
         <TabPanel id="moon">
+          <img src={Moon} alt="Moon" />
           <h3 className="ff-serif-regular fs-2xl uppercase text-white">Moon</h3>
           <p className="ff-sans-regular fs-regular line-height-1-5 text-light">
             See our planet as you've never seen it before. A perfect relaxing
@@ -41,6 +48,7 @@ function Destination() {
           <p className="ff-serif-regular fs-med uppercase text-white">3 Days</p>
         </TabPanel>
         <TabPanel id="mars">
+          <img src={Mars} alt="Mars" />
           <h3 className="ff-serif-regular fs-2xl uppercase text-white">Mars</h3>
           <p className="ff-sans-regular fs-regular line-height-1-5 text-light">
             Don't forget to pack your hiking boots. You'll need them to tackle
@@ -61,6 +69,7 @@ function Destination() {
           </p>
         </TabPanel>
         <TabPanel id="europa">
+          <img src={Europa} alt="Europa" />
           <h3 className="ff-serif-regular fs-2xl uppercase text-white">
             Europa
           </h3>
@@ -84,6 +93,7 @@ function Destination() {
           </p>
         </TabPanel>
         <TabPanel id="titan">
+          <img src={Titan} alt="Titan" />
           <h3 className="ff-serif-regular fs-2xl uppercase text-white">
             Titan
           </h3>
