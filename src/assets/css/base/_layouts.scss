@@ -1,0 +1,66 @@
+/***
+  Layouts
+***/
+
+body {
+  background-color: hsl(var(--color-dark));
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  overflow-x: hidden;
+}
+
+// Home Page
+
+.grid__container {
+  min-height: calc(100vh - 116px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: end;
+}
+
+.grid__container * {
+  max-width: 60ch;
+}
+
+.grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+  place-self: end center;
+  margin: 0 0 100px 0;
+}
+
+.grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+  place-self: end;
+  margin: 0 75px 25px 0;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .grid__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    place-items: center;
+  }
+
+  .grid__container-item-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    place-self: center;
+    margin: 0 0 0 0;
+  }
+
+  .grid__container-item-2 {
+    grid-area: 2 / 1 / 3 / 2;
+    place-self: center;
+    margin: 0 0 25px 0;
+  }
+}
+
+@media (max-width: 46rem /* 740px */) {
+}
