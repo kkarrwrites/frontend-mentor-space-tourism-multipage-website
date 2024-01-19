@@ -1,3 +1,9 @@
+/***
+  Nav
+***/
+
+// Desktop Screens
+
 // Header
 
 .header__container {
@@ -17,6 +23,12 @@
 .logo-link {
   color: hsl(var(--color-white));
   cursor: pointer;
+}
+
+// Hamburger
+
+.hamburger {
+  display: none;
 }
 
 // Nav
@@ -62,7 +74,9 @@
   transition: all 0.2s ease;
 }
 
-@media (max-width: 64rem /* 1024px */) {
+// Tablet Screens
+
+@media (max-width: 64em /* 1024px */) {
   // Nav
 
   .nav__menu-item:first-child {
@@ -73,10 +87,24 @@
   }
 }
 
-@media (max-width: 46rem /* 740px */) {
+// Mobile Screens
+
+@media (max-width: 46em /* 740px */) {
+  // Hamburger
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
   // Nav
 
   .nav__menu {
+    display: none;
     flex-direction: column;
     justify-content: start;
     align-items: baseline;
