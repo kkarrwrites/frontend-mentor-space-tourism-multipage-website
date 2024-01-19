@@ -1,5 +1,11 @@
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
+// Images
+import Hurley from '../assets/img/crew/image-douglas-hurley.png';
+import Shuttleworth from '../assets/img/crew/image-mark-shuttleworth.png';
+import Glover from '../assets/img/crew/image-victor-glover.png';
+import Ansairi from '../assets/img/crew/image-anousheh-ansari.png';
+
 function Crew() {
   return (
     <>
@@ -25,6 +31,7 @@ function Crew() {
             pilot and former NASA astronaut. He launched into space for the
             third time as commander of Crew Dragon Demo-2.
           </p>
+          <img src={Hurley} alt="Commander Douglas Hurley" />
         </TabPanel>
         <TabPanel id="2">
           <h3 className="ff-serif-regular fs-lg uppercase text-white text-opacity-50">
@@ -39,6 +46,7 @@ function Crew() {
             became the first South African to travel to space as a space
             tourist.
           </p>
+          <img src={Shuttleworth} alt="Mission Specialist Mark Shuttleworth" />
         </TabPanel>
         <TabPanel id="3">
           <h3 className="ff-serif-regular fs-lg uppercase text-white text-opacity-50">
@@ -53,6 +61,7 @@ function Crew() {
             Navy where he pilots an F/A-18.He was a crew member of Expedition
             64, and served as a station systems flight engineer.
           </p>
+          <img src={Glover} alt="Pilot Victor Glover" />
         </TabPanel>
         <TabPanel id="4">
           <h3 className="ff-serif-regular fs-lg uppercase text-white text-opacity-50">
@@ -67,6 +76,7 @@ function Crew() {
             first self-funded woman to fly to the ISS, and the first Iranian in
             space.
           </p>
+          <img src={Ansairi} alt="Flight Engineer Anousheh Ansairi" />
         </TabPanel>
       </Tabs>
     </>
