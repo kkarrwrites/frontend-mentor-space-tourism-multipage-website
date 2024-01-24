@@ -3,64 +3,178 @@
 ***/
 
 body {
-  background-color: hsl(var(--color-dark));
   min-height: 100vh;
   display: grid;
   grid-template-rows: min-content 1fr;
   overflow-x: hidden;
 }
 
+.bg-home {
+  background-image: url('/img/home/background-home-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 64em /* 1024px */) {
+  .bg-home {
+    background-image: url('/img/home/background-home-tablet.jpg');
+  }
+}
+@media (max-width: 46em /* 740px */) {
+  .bg-home {
+    background-image: url('/img/home/background-home-mobile.jpg');
+  }
+}
+
+.bg-destination {
+  background-image: url('/img/destination/background-destination-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 64em /* 1024px */) {
+  .bg-destination {
+    background-image: url('/img/destination/background-destination-tablet.jpg');
+  }
+}
+@media (max-width: 46em /* 740px */) {
+  .bg-destination {
+    background-image: url('/img/destination/background-destination-mobile.jpg');
+  }
+}
+
+.bg-crew {
+  background-image: url('/img/crew/background-crew-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 64em /* 1024px */) {
+  .bg-crew {
+    background-image: url('/img/crew/background-crew-tablet.jpg');
+  }
+}
+@media (max-width: 46em /* 740px */) {
+  .bg-crew {
+    background-image: url('/img/crew/background-crew-mobile.jpg');
+  }
+}
+
+.bg-technology {
+  background-image: url('/img/technology/background-technology-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 64em /* 1024px */) {
+  .bg-technology {
+    background-image: url('/img/technology/background-technology-tablet.jpg');
+  }
+}
+@media (max-width: 46em /* 740px */) {
+  .bg-technology {
+    background-image: url('/img/technology/background-technology-mobile.jpg');
+  }
+}
+
 // Home Page
 
-.grid__container {
+.home-grid__container {
   min-height: calc(100vh - 116px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   align-items: end;
 }
 
-.grid__container * {
+.home-grid__container * {
   max-width: 60ch;
 }
 
-.grid__container-item-1 {
+.home-grid__container-item-1 {
   grid-area: 1 / 1 / 2 / 2;
   place-self: end center;
   margin: 0 0 100px 0;
 }
 
-.grid__container-item-2 {
+.home-grid__container-item-2 {
   grid-area: 1 / 2 / 2 / 3;
   place-self: end;
   margin: 0 75px 25px 0;
 }
 
 @media (max-width: 64em /* 1024px */) {
-  .grid__container {
+  .home-grid__container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     text-align: center;
     place-items: center;
   }
 
-  .grid__container-item-1 {
+  .home-grid__container-item-1 {
     grid-area: 1 / 1 / 2 / 2;
     place-self: center;
     margin: 0 0 0 0;
   }
 
-  .grid__container-item-2 {
+  .home-grid__container-item-2 {
     grid-area: 2 / 1 / 3 / 2;
     place-self: center;
     margin: 0 0 25px 0;
   }
 }
 
-@media (max-width: 46rem /* 740px */) {
+// Destination Page
+
+.destination-grid__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.destination-grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+  place-self: center;
+}
+
+.destination-grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+  place-self: start left;
+}
+
+// Crew Page
+
+// Technology Page
+
+.technology-grid__container {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 1fr;
+}
+
+.technology-grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.technology-grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.technology-inner-grid__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.technology-inner-grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.technology-inner-grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
 }
