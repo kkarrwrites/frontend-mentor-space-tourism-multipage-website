@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
 // Images
@@ -7,6 +8,14 @@ import Glover from '../assets/img/crew/image-victor-glover.png';
 import Ansairi from '../assets/img/crew/image-anousheh-ansari.png';
 
 function Crew() {
+  useEffect(() => {
+    document.body.classList.add('bg-crew');
+
+    return () => {
+      document.body.classList.remove('bg-crew');
+    };
+  }, []);
+
   return (
     <>
       <h2 className="ff-sans-condensed fs-med letter-spacing-4-72 uppercase text-white">
