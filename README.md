@@ -76,6 +76,10 @@ Users should be able to:
 - [Sass Guidelines: Architecture](https://sass-guidelin.es/#architecture)
 - [Why we prefer CSS Custom Properties to SASS variables](https://codyhouse.co/blog/post/css-custom-properties-vs-sass-variables) by Sebastiano Guerriero
 
+### React
+
+- [Add a Class or Styles to the Body element in React](https://bobbyhadz.com/blog/react-add-class-to-body-element) by Borislav Hadzhiev
+
 ## Developer
 
 - GitHub: [@kkarrwrites](https://github.com/kkarrwrites)
