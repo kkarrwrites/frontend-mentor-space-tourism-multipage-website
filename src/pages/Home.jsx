@@ -1,8 +1,18 @@
+import { useEffect } from 'react';
+
 function Home() {
+  useEffect(() => {
+    document.body.classList.add('bg-home');
+
+    return () => {
+      document.body.classList.remove('bg-home');
+    };
+  }, []);
+
   return (
     <>
-      <section className="grid grid__container">
-        <div className="grid__container-item grid__container-item-1">
+      <main className="home-grid__container">
+        <div className="home-grid__container-item-1">
           <h2 className="ff-sans-condensed fs-med line-height-1-5 letter-spacing-4-72 uppercase text-light">
             So, you want to travel to
           </h2>
@@ -16,10 +26,10 @@ function Home() {
             world experience!
           </p>
         </div>
-        <div className="grid__container-item grid__container-item-2">
+        <div className="home-grid__container-item-2">
           <button className="lg-button">Explore</button>
         </div>
-      </section>
+      </main>
     </>
   );
 }
