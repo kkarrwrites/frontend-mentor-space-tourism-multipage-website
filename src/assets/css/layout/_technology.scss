@@ -1,0 +1,32 @@
+/***
+  Technology
+***/
+
+.technology-grid__container {
+  min-height: calc(100vh - 116px);
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 1fr;
+}
+
+.technology-grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.technology-grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.technology-inner-grid__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.technology-inner-grid__container-item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.technology-inner-grid__container-item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}

@@ -1,0 +1,119 @@
+/***
+  Body
+***/
+
+// body {
+//   min-height: 100vh;
+//   display: grid;
+//   grid-template-rows: min-content 1fr;
+//   overflow-x: hidden;
+// }
+
+.numbered-heading {
+  padding: 70px 0 50px 150px;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .numbered-heading {
+    padding: 50px 0 0 55px;
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
+  .numbered-heading {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+/***
+  Background Images
+***/
+
+// Home Page
+
+.bg-home {
+  background-image: url('/img/home/background-home-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .bg-home {
+    background-image: url('/img/home/background-home-tablet.jpg');
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
+  .bg-home {
+    background-image: url('/img/home/background-home-mobile.jpg');
+  }
+}
+
+// Destination Page
+
+.bg-destination {
+  background-image: url('/img/destination/background-destination-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .bg-destination {
+    background-image: url('/img/destination/background-destination-tablet.jpg');
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
+  .bg-destination {
+    background-image: url('/img/destination/background-destination-mobile.jpg');
+  }
+}
+
+// Crew Page
+
+.bg-crew {
+  background-image: url('/img/crew/background-crew-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .bg-crew {
+    background-image: url('/img/crew/background-crew-tablet.jpg');
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
+  .bg-crew {
+    background-image: url('/img/crew/background-crew-mobile.jpg');
+  }
+}
+
+// Technology Page
+
+.bg-technology {
+  background-image: url('/img/technology/background-technology-desktop.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .bg-technology {
+    background-image: url('/img/technology/background-technology-tablet.jpg');
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
+  .bg-technology {
+    background-image: url('/img/technology/background-technology-mobile.jpg');
+  }
+}
