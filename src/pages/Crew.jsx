@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
-// Images
 import Hurley from '../assets/img/crew/image-douglas-hurley.png';
 import Shuttleworth from '../assets/img/crew/image-mark-shuttleworth.png';
 import Glover from '../assets/img/crew/image-victor-glover.png';

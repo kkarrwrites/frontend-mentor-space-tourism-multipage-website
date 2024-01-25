@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-aria-components';
 
-// Images
 import LaunchVehicle from '../assets/img/technology/image-launch-vehicle-portrait.jpg';
 import Spaceport from '../assets/img/technology/image-spaceport-portrait.jpg';
 import SpaceCapsule from '../assets/img/technology/image-space-capsule-portrait.jpg';
