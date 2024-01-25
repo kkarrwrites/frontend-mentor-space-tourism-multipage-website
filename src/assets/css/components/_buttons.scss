@@ -31,8 +31,10 @@
 
 .mini-nav {
   display: flex;
-  justify-content: first baseline;
-  align-items: left;
+  justify-content: center;
+  height: 30px;
+  gap: 30px;
+  margin: 0 0 0 280px;
 }
 
 .mini-nav__item {
@@ -43,19 +45,29 @@
   letter-spacing: 2.27px;
   cursor: pointer;
   transition: all 0.2s ease;
+  padding: 0 0 0 0;
 }
 
 .mini-nav__item:active,
 .mini-nav__item:focus {
   color: hsl(var(--color-white));
-  border-bottom: 1.5px solid hsl(var(--color-white));
+  border-bottom: 3px solid hsl(var(--color-white));
   transition: all 0.2s ease;
 }
 
 .mini-nav__item:hover {
   color: hsl(var(--color-light));
-  border-bottom: 1.5px solid hsla(0, 0%, 100%, 0.5);
+  border-bottom: 3px solid hsla(0, 0%, 100%, 0.5);
   transition: all 0.2s ease;
+}
+
+@media (max-width: 64em /* 1024px */) {
+  .mini-nav {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media (max-width: 46em /* 740px */) {
 }
 
 // Dot Buttons on Crew Page
