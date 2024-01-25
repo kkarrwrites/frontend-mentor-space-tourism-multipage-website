@@ -12,6 +12,7 @@ This is a solution to the [Space Tourism Multipage Website Challenge](https://ww
   - [Built With](#built-with)
   - [Tools Used](#tools-used)
   - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
   - [Resources](#resources)
 - [Developer](#developer)
 
@@ -40,7 +41,6 @@ Users should be able to:
 ### Built With
 
 - HTML (Semantic)
-- CSS (Native)
 - SCSS (Sass)
 - JavaScript (JSX)
 - React
@@ -57,6 +57,8 @@ Users should be able to:
 
 ### What I Learned
 
+### Continued Development
+
 ### Resources
 
 #### CSS
@@ -70,13 +72,13 @@ Users should be able to:
 - [The New CSS Reset](https://elad2412.github.io/the-new-css-reset/) by Elad Shechter
 - [Style hover, focus, and active states differently](https://zellwk.com/blog/style-hover-focus-active-states/) by Zell
 
-#### SCSS
+#### Sass
 
 - [A Modern Sass Folder Structure](https://dev.to/dostonnabotov/a-modern-sass-folder-structure-330f) by Technophile
 - [Sass Guidelines: Architecture](https://sass-guidelin.es/#architecture)
 - [Why we prefer CSS Custom Properties to SASS variables](https://codyhouse.co/blog/post/css-custom-properties-vs-sass-variables) by Sebastiano Guerriero
 
-### React
+#### React
 
 - [Add a Class or Styles to the Body element in React](https://bobbyhadz.com/blog/react-add-class-to-body-element) by Borislav Hadzhiev
 
