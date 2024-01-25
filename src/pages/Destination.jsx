@@ -47,7 +47,7 @@ function Destination() {
               <h3 className="ff-serif-regular fs-2xl uppercase text-white">
                 Moon
               </h3>
-              <p className="destination-grid__container-item-2-paragraph ff-sans-regular fs-regular line-height-1-5 text-light">
+              <p className="destination__paragraph ff-sans-regular fs-regular line-height-1-5 text-light">
                 See our planet as you've never seen it before. A perfect
                 relaxing trip away to help regain perspective and come back
                 refreshed. While you're there, take in some history by visiting
@@ -76,17 +76,17 @@ function Destination() {
                   </tr>
                 </tbody>
               </table>
-              <div className="mobile-stats">
-                <p className="mobile-stats__item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+              <div className="destination__mobile-stats">
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
                   Avg. Distance
                 </p>
-                <p className="mobile-stats__item-2 ff-serif-regular fs-med uppercase text-white">
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
                   384,400 km
                 </p>
-                <p className="mobile-stats__item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
                   Est. Travel Time
                 </p>
-                <p className="mobile-stats__item-2 ff-serif-regular fs-med uppercase text-white">
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
                   3 Days
                 </p>
               </div>
@@ -100,7 +100,7 @@ function Destination() {
               <h3 className="ff-serif-regular fs-2xl uppercase text-white">
                 Mars
               </h3>
-              <p className="ff-sans-regular fs-regular line-height-1-5 text-light">
+              <p className="destination__paragraph ff-sans-regular fs-regular line-height-1-5 text-light">
                 Don't forget to pack your hiking boots. You'll need them to
                 tackle Olympus Mons, the tallest planetary mountain in our solar
                 system. It's two and a half times the size of Everest!
@@ -128,6 +128,20 @@ function Destination() {
                   </tr>
                 </tbody>
               </table>
+              <div className="destination__mobile-stats">
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Avg. Distance
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  225 Mil. km
+                </p>
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Est. Travel Time
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  9 Months
+                </p>
+              </div>
             </div>
           </TabPanel>
           <TabPanel id="europa" className="destination-grid__container">
@@ -138,7 +152,7 @@ function Destination() {
               <h3 className="ff-serif-regular fs-2xl uppercase text-white">
                 Europa
               </h3>
-              <p className="ff-sans-regular fs-regular line-height-1-5 text-light">
+              <p className="destination__paragraph ff-sans-regular fs-regular line-height-1-5 text-light">
                 The smallest of the four Galilean moons orbiting Jupiter, Europa
                 is a winter lover's dream. With an icy surface, it's perfect for
                 a bit of ice skating, curling, hockey, or simple relaxation in
@@ -167,6 +181,20 @@ function Destination() {
                   </tr>
                 </tbody>
               </table>
+              <div className="destination__mobile-stats">
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Avg. Distance
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  628 Mil. km
+                </p>
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Est. Travel Time
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  3 Years
+                </p>
+              </div>
             </div>
           </TabPanel>
           <TabPanel id="titan" className="destination-grid__container">
@@ -177,7 +205,7 @@ function Destination() {
               <h3 className="ff-serif-regular fs-2xl uppercase text-white">
                 Titan
               </h3>
-              <p className="ff-sans-regular fs-regular line-height-1-5 text-light">
+              <p className="destination__paragraph ff-sans-regular fs-regular line-height-1-5 text-light">
                 The only moon known to have a dense atmosphere other than Earth,
                 Titan is a home away from home (just a few hundred degrees
                 colder!). As a bonus, you get striking views of the Rings of
@@ -206,6 +234,20 @@ function Destination() {
                   </tr>
                 </tbody>
               </table>
+              <div className="destination__mobile-stats">
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Avg. Distance
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  1.6 Bil km
+                </p>
+                <p className="destination__mobile-stats-item-1 ff-sans-condensed fs-xs letter-spacing-2-36 uppercase text-light">
+                  Est. Travel Time
+                </p>
+                <p className="destination__mobile-stats-item-2 ff-serif-regular fs-med uppercase text-white">
+                  7 Years
+                </p>
+              </div>
             </div>
           </TabPanel>
         </Tabs>
