@@ -50,8 +50,13 @@
 }
 
 @media (max-width: 46em /* 740px */) {
+  .home-grid__container {
+    grid-template-columns: 100%;
+  }
+
   .home-grid__container-item-1 {
     margin: 0 20px 0 20px;
+    // margin: 0 0 0 0;
   }
 
   .home-grid__container-item-2 {
