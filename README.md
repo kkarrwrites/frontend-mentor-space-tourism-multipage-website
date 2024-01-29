@@ -43,8 +43,7 @@ Users should be able to:
 - HTML (Semantic)
 - SCSS (Sass)
 - JavaScript (JSX)
-- React
-- React Aria
+- React (React Aria)
 - Vite
 
 ### Tools Used
@@ -81,6 +80,7 @@ Users should be able to:
 #### React
 
 - [Add a Class or Styles to the Body element in React](https://bobbyhadz.com/blog/react-add-class-to-body-element) by Borislav Hadzhiev
+- [Fixing White Line Appearance Issue in React-Tabs Library](https://devcodef1.com/news/1017002/fixing-white-line-appearance-issue-in-react-tabs-library) by DevCodeF1 Editors
 
 ## Developer
 
