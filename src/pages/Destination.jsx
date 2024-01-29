@@ -25,7 +25,11 @@ function Destination() {
           </h2>
         </div>
         <Tabs>
-          <TabList aria-label="Destination" className="mini-nav">
+          <TabList
+            aria-label="Destination"
+            className="mini-nav"
+            style={{ borderBottom: 'none' }}
+          >
             <Tab id="moon" className="mini-nav__item">
               Moon
             </Tab>
