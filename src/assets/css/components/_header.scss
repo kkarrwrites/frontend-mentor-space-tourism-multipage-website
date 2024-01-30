@@ -99,6 +99,9 @@
 
   .nav__menu {
     display: none;
+  }
+
+  .nav__menu-expanded {
     flex-direction: column;
     justify-content: start;
     align-items: baseline;

@@ -1,45 +1,57 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import Logo from '../assets/img/shared/logo.svg';
 import HamburgerOpen from '../assets/img/shared/icon-hamburger.svg';
 import HamburgerClose from '../assets/img/shared/icon-close.svg';
 
 function Header() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <header className="header__container">
       <div className="logo">
-        <Link to="/" className="logo-link">
+        <NavLink to="/" className="logo-link">
           <img src={Logo} alt="Logo" />
-        </Link>
+        </NavLink>
       </div>
       <button aria-controls="primary-navigation">
         <span className="sr-only" aria-expanded="false">
           Menu
         </span>
-        <img src={HamburgerOpen} alt="Hamburger Menu" className="hamburger" />
+        <img
+          src={isNavExpanded ? HamburgerClose : HamburgerOpen}
+          alt="Hamburger Menu"
+          className="hamburger"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        />
       </button>
       <nav>
-        <ul id="primary-navigation" className="nav__menu">
+        <ul
+          id="primary-navigation"
+          className={isNavExpanded ? 'nav__menu-expanded' : 'nav__menu'}
+        >
           <li className="nav__menu-item">
-            <Link to="/" className="nav__link">
+            <NavLink to="/" className="nav__link">
               <span className="bold">00</span> Home
-            </Link>
+            </NavLink>
           </li>
           <li className="nav__menu-item">
-            <Link to="/destination" className="nav__link">
+            <NavLink to="/destination" className="nav__link">
               <span className="bold">01</span> Destination
-            </Link>
+            </NavLink>
           </li>
           <li className="nav__menu-item">
-            <Link to="/crew" className="nav__link">
+            <NavLink to="/crew" className="nav__link">
               <span className="bold">02</span> Crew
-            </Link>
+            </NavLink>
           </li>
           <li className="nav__menu-item">
-            <Link to="technology" className="nav__link">
+            <NavLink to="technology" className="nav__link">
               <span className="bold">03</span> Technology
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
