@@ -74,12 +74,14 @@ Users should be able to:
 #### Sass
 
 - [A Modern Sass Folder Structure](https://dev.to/dostonnabotov/a-modern-sass-folder-structure-330f) by Technophile
-- [Sass Guidelines: Architecture](https://sass-guidelin.es/#architecture)
+- [Sass Guidelines - Architecture](https://sass-guidelin.es/#architecture) by Kitty Giraudel
 - [Why we prefer CSS Custom Properties to SASS variables](https://codyhouse.co/blog/post/css-custom-properties-vs-sass-variables) by Sebastiano Guerriero
 
 #### React
 
 - [Add a Class or Styles to the Body element in React](https://bobbyhadz.com/blog/react-add-class-to-body-element) by Borislav Hadzhiev
+- [An Easy Way to Create a Responsive Navbar in ReactJS](https://www.codevertiser.com/reactjs-responsive-navbar/) by Abdul Basit On
+- [Create a responsive navbar with React and CSS](https://blog.logrocket.com/create-responsive-navbar-react-css/) by Chinwike Maduabuchi
 - [Fixing White Line Appearance Issue in React-Tabs Library](https://devcodef1.com/news/1017002/fixing-white-line-appearance-issue-in-react-tabs-library) by DevCodeF1 Editors
 
 ## Developer
