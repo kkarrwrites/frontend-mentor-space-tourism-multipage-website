@@ -74,7 +74,7 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 
 ### Continued Development
 
-- [ ] Add comments to CSS (e.g., mobile first and desktop first components)
+- [ ] #1
 - [ ] Refactor CSS to follow BEM
 - [ ] Nest media queries using Sass
 - [ ] Eliminate white space on bottom of Technology page on tablet and mobile
