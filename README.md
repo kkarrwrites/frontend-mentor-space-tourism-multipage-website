@@ -73,6 +73,20 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 
 ### What I Learned
 
+- How and why to use Vite to build a React application (Vite is a faster and more lightweight tool than Create React App)
+- Best practices for organizing React files
+- How to use useEffect to change background images on different screen sizes and on different pages
+- How to use useState, the ternary operator, and NavLink to create a responsive navigation bar and hamburger menu on mobile screens
+- How to use React Aria Tabs to create a tabbed component on the Destination, Crew, and Technology pages
+- How to use inline media queries to display different images on different screen sizes
+- Best practices for organizing SCSS files
+- How to use Sass to organize multiple CSS files
+- How to create a CSS reset file
+- How to build utility classes in CSS
+- Best practices for naming classes in CSS (BEM)
+- How to create responsive website layouts using CSS Flexbox and Grid
+- How to deploy a Vite React application to GitHub Pages
+
 ### Continued Development
 
 - [ ] [Add comments to CSS](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/1)
@@ -83,6 +97,7 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 - [ ] [Research a work around for moving the TabList component within the TabPanel components](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/6)
 - [ ] [Address Accessibility Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/7)
 - [ ] [Address HTML Validation Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/8)
+- [ ] [Clean up layout issues with Flexbox and Grid](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/9)
 
 ### Resources
 
