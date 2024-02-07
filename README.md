@@ -98,6 +98,7 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 - [ ] [Address Accessibility Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/7)
 - [ ] [Address HTML Validation Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/8)
 - [ ] [Clean up layout issues with Flexbox and Grid](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/9)
+- [ ] [Add horizontal rule (horizonal line) element to the navbar](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/10)
 
 ### Resources
 
