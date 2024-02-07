@@ -2,11 +2,12 @@
 
 This is a solution to the [Space Tourism Multipage Website Challenge](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshots](#screenshot)
+  - [Mockup](#mockup)
+  - [Demos](#demos)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
@@ -26,37 +27,59 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-### Screenshots
+### Mockup
 
-![]()
+![Mockup of Home Page for Desktop and Mobile](/public/img//screenshots/Home_Mockup.jpg)
+_Mockup created with [Magic Mockups](http://magicmockups.com/)_
+
+### Demos
+
+#### Desktop
+
+![Demo of Desktop](/public/img/screenshots/Desktop.gif)
+
+#### Tablet
+
+![Demo of Tablet](/public/img/screenshots/Tablet.gif)
+
+#### Mobile
+
+![Demo of Mobile](/public/img/screenshots/Mobile.gif)
 
 ### Links
 
 - [GitHub Repository](https://github.com/kkarrwrites/frontend-mentor-space-website)
 - [GitHub Pages Deployment](https://kkarrwrites.github.io/frontend-mentor-space-website)
-- [Frontend Mentor Solution Submission]()
+- [Frontend Mentor Solution Submission](https://www.frontendmentor.io/solutions/html-css-scss-sass-javascript-react-vs-code-firefox-e_00Gg0x-t)
 
 ## My Process
 
 ### Built With
 
-- HTML (Semantic)
-- SCSS (Sass)
-- JavaScript (JSX)
-- React (React Aria)
-- Vite
+- HTML/JSX
+- CSS/SCSS (Sass)
+- JavaScript/React
 
 ### Tools Used
 
 - Figma
-- Firefox (Dev Tools)
-- Visual Studio Code
+- Firefox
 - Git Bash
 - GitHub
+- React Aria
+- Vite
+- Visual Studio Code
 
 ### What I Learned
 
 ### Continued Development
+
+- [ ] Add comments to CSS (e.g., mobile first and desktop first components)
+- [ ] Refactor CSS to follow BEM
+- [ ] Nest media queries using Sass
+- [ ] Eliminate white space on bottom of Technology page on tablet and mobile
+- [ ] Fix active link underlines so that the active navigation underline remains when clicking on tabs on individual pages (when you click on a tab on the Destination, Crew, and Technology pages, the active underline disappears from the navigation bar and appears on the tabs and vice versa)
+- [ ] Research a work around for moving the TabList component within the TabPanel components (React Aria Tabs was used to build the tab components on the Destination, Crew, and Technology pages. On the Destination page on tablet and mobile, the TabPanel should appear below the image, but it currently appears above the image. On the Crew page on desktop and tablet, the TabPanel should appear below the text, but it currently appears above the text; on the Crew page on mobile, the TabPanel should appear below the image, but it currently appears above the image. On the Technology page on tablet and mobile, the TabPabel should appear below the image, but it currently appears above the image.)
 
 ### Resources
 
