@@ -16,7 +16,7 @@ function Header() {
         </NavLink>
       </div>
       <button aria-controls="primary-navigation">
-        <span className="sr-only" aria-expanded="false">
+        <span className="sr-only" aria-expanded="false" role="menu">
           Menu
         </span>
         <img
