@@ -82,6 +82,7 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 - [ ] [Fix active link underlines so that the active navigation underline remains when clicking on tabs on individual pages](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/5)
 - [ ] [Research a work around for moving the TabList component within the TabPanel components](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/6)
 - [ ] [Address Accessibility Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/7)
+- [ ] [Address HTML Validation Report issues on Frontend Mentor](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/8)
 
 ### Resources
 
