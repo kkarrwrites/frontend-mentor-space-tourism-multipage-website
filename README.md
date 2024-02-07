@@ -74,12 +74,12 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 
 ### Continued Development
 
-- [ ] #1
-- [ ] Refactor CSS to follow BEM
-- [ ] Nest media queries using Sass
-- [ ] Eliminate white space on bottom of Technology page on tablet and mobile
-- [ ] Fix active link underlines so that the active navigation underline remains when clicking on tabs on individual pages (when you click on a tab on the Destination, Crew, and Technology pages, the active underline disappears from the navigation bar and appears on the tabs and vice versa)
-- [ ] Research a work around for moving the TabList component within the TabPanel components (React Aria Tabs was used to build the tab components on the Destination, Crew, and Technology pages. On the Destination page on tablet and mobile, the TabPanel should appear below the image, but it currently appears above the image. On the Crew page on desktop and tablet, the TabPanel should appear below the text, but it currently appears above the text; on the Crew page on mobile, the TabPanel should appear below the image, but it currently appears above the image. On the Technology page on tablet and mobile, the TabPabel should appear below the image, but it currently appears above the image.)
+- [ ] [Add comments to CSS](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/1)
+- [ ] [Refactor CSS to follow BEM](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/2)
+- [ ] [Nest media queries using Sass](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/3)
+- [ ] [Eliminate white space on bottom of Technology page on tablet and mobile](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/4)
+- [ ] [Fix active link underlines so that the active navigation underline remains when clicking on tabs on individual pages](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/5)
+- [ ] [Research a work around for moving the TabList component within the TabPanel components](https://github.com/kkarrwrites/frontend-mentor-space-website/issues/6)
 
 ### Resources
 
