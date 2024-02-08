@@ -73,7 +73,8 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 
 ### What I Learned
 
-- How and why to use Vite to build a React application (Vite is a faster and more lightweight tool than Create React App)
+- How and why to use Vite to build a React application
+  - Vite is a faster and more lightweight tool than Create React App
 - Best practices for organizing React files
 - How to use useEffect to change background images on different screen sizes and on different pages
 - How to use useState, the ternary operator, and NavLink to create a responsive navigation bar and hamburger menu on mobile screens
@@ -83,9 +84,11 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 - How to use Sass to organize multiple CSS files
 - How to create a CSS reset file
 - How to build utility classes in CSS
-- Best practices for naming classes in CSS (BEM)
+- Best practices for naming classes in CSS with BEM
 - How to create responsive website layouts using CSS Flexbox and Grid
 - How to deploy a Vite React application to GitHub Pages
+- Time management
+  - I gave myself six months to work on this project, but most of the work was done in a two-month period. I had to balance my full time job and other obligations with this project. There is still more that could be developed, but as of February 2024, I have completed this project.
 
 ### Continued Development
 
@@ -125,6 +128,11 @@ _Mockup created with [Magic Mockups](http://magicmockups.com/)_
 - [An Easy Way to Create a Responsive Navbar in ReactJS](https://www.codevertiser.com/reactjs-responsive-navbar/) by Abdul Basit On
 - [Create a responsive navbar with React and CSS](https://blog.logrocket.com/create-responsive-navbar-react-css/) by Chinwike Maduabuchi
 - [Fixing White Line Appearance Issue in React-Tabs Library](https://devcodef1.com/news/1017002/fixing-white-line-appearance-issue-in-react-tabs-library) by DevCodeF1 Editors
+
+#### Vite
+
+- [Create a React app with Vite and deploy it on GitHub](https://medium.com/@badreddine.boudaoud21/create-a-react-app-with-vite-and-deploy-it-on-github-48b82e19f821) by Badreddine Boudaoud
+- [Deploying Vite Deploying Vite App to GitHub Pages](https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3) by Aishwarya Parab
 
 ## Developer
 
